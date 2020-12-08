@@ -1,0 +1,11 @@
+﻿<Application x:Class="Bank_Kard_Test.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Bank_Kard_Test"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="txtbox" TargetType="TextBox">
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+    </Application.Resources>
+</Application>
